@@ -62,6 +62,6 @@ for i in range(1, NUM):
     ax2.plot(x[:i], 2/ratio[:i], c= 'r', linewidth=0.1) 
     
     ax2.title.set_text("Valor estimado de PI = {}".format(2/ratio[i]))
-    plt.pause(0.001)
+    plt.pause(0.0000001)
 
 plt.show()
